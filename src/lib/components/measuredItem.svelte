@@ -17,6 +17,6 @@
 
     </div>
     <div class="transition-transform transform" class:rotate-180={isExpanded}>
-        <ChevronDown size="20" />
+        <ChevronDown size="20" class="text-indigo-500" />
     </div>
 </button>

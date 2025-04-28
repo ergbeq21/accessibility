@@ -39,7 +39,7 @@
 ];
 
 
-let sectionExpanded = $state(1);
+let sectionExpanded = $state(-1);
 
 function expland(index){
     if(sectionExpanded == index){
@@ -55,7 +55,7 @@ function expland(index){
 
 
 <section class="flex flex-col gap-20">
-    <h1 class="font-extrabold text-7xl font-sans mt-10 text-center">How is digital accessibility measured?</h1>
+    <h1 class="font-extrabold text-7xl font-sans mt-10 text-center text-indigo-700">How is digital <span class="text-indigo-500">accessibility</span> measured?</h1>
     <div class="flex flex-col gap-4">
         {#each sections as section, index}
         <MeasuredItem {section} isExpanded={index === sectionExpanded} onclick={()=>{
@@ -64,7 +64,7 @@ function expland(index){
         {/each}
     </div>
     <div class="flex justify-center flex-row gap-10 mb-10 ">
-        <button class="p-5 bg-black text-white font-bold font-mono border hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"><a href="https://web.dev/learn/accessibility/measure?continue=https%3A%2F%2Fweb.dev%2Flearn%2Faccessibility%23article-https%3A%2F%2Fweb.dev%2Flearn%2Faccessibility%2Fmeasure">
+        <button class="p-5  bg-indigo-700 text-white font-bold font-mono border hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"><a href="https://web.dev/learn/accessibility/measure?continue=https%3A%2F%2Fweb.dev%2Flearn%2Faccessibility%23article-https%3A%2F%2Fweb.dev%2Flearn%2Faccessibility%2Fmeasure">
         Read full article
         </a></button>
         <button class="p-5 bg-white text-black font-bold font-mono border hover:bg-black hover:text-white transition-all duration-300 cursor-pointer"><a href="/">

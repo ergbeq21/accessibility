@@ -30,7 +30,7 @@
 
 <section class="flex flex-col justify-center gap-20 p-20">
 	<h1 class="font-sans text-5xl font-extrabold" >
-		Mastering the Essentials of <br /> Digital Accessibility
+		Mastering the Essentials of <br />  Digital <span class="text-indigo-500"> Accessibility</span>
 	</h1>
 
 	<div class="flex h-100 flex-row gap-20">
