@@ -1,4 +1,5 @@
 <script>
+	
 	const chapters = [
 		{
 			number: 1,

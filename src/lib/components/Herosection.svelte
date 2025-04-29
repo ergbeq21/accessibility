@@ -25,7 +25,7 @@
 			<button
 				class="mt-4 w-100 cursor-pointer rounded border px-4 py-2 font-mono text-white transition-all duration-150 hover:bg-white hover:text-black"
 			>
-				<a href="/article2">How is digital accessibility measured</a>
+				<a href="/article2">Design and user experience </a>
 			</button>
 		</div>
 	</div>

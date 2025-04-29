@@ -4,38 +4,37 @@
     import MeasuredItem from "./measuredItem.svelte";
 
     const sections = [
-  {
-    title: "Introduction to Accessibility Testing",
-    text: "Accessibility testing involves checking digital products against recognized standards to ensure they are usable by people with disabilities. The industry, local laws, or project goals often determine which standard to use, but the Web Content Accessibility Guidelines (WCAG) are commonly recommended. Accessibility audits, using automated, manual, design, and assistive technology testing, should be conducted regularly throughout a product’s lifecycle to maintain compliance."
+
+    {
+    title: "What is Inclusive Design?",
+    text: "Inclusive design is a human-centered approach that integrates accessibility, usability, and inclusivity. It acknowledges the diverse ways people interact with digital interfaces and strives to create experiences that accommodate all users. This includes users with disabilities, those in varying environments, and those using different devices. The goal is to make digital products functional, accessible, and meaningful for everyone."
   },
   {
-    title: "Understanding the Web Content Accessibility Guidelines (WCAG)",
-    text: "WCAG, developed by the W3C, provides a global standard for digital accessibility. Primarily targeting web and mobile app creators, WCAG outlines success criteria across three levels: A, AA, and AAA. To achieve a higher level like AA, a product must meet both A and AA criteria. WCAG 2.2 is the current standard, with WCAG 3.0 still in draft form. Following these guidelines ensures a broader, more accessible reach for digital content."
+    title: "Inclusive vs. Universal Design",
+    text: "Inclusive design differs from universal design in its methodology. While universal design attempts to create one solution for as many people as possible, inclusive design starts with specific use cases or individuals—particularly those with unique needs—and adapts the solution outward to serve a wider group. This targeted approach ensures that overlooked or marginalized users are considered from the start, resulting in more flexible and robust designs."
   },
   {
-    title: "Accessibility Principles: The POUR Framework",
-    text: "The POUR principles—Perceivable, Operable, Understandable, and Robust—offer a foundational way to think about accessibility beyond technical rules. They focus on real human experiences and guide the creation of inclusive digital products."
+    title: "Key Inclusive Design Principles",
+    text: "There are seven main principles of inclusive design that help guide decision-making: 1) Provide comparable experiences to all users; 2) Consider different contexts and situations users may be in; 3) Use consistent and predictable patterns; 4) Give users control over how they interact with the content; 5) Offer multiple ways to complete tasks; 6) Prioritize essential content and features to avoid distractions; 7) Add value to user experiences by making thoughtful design choices that enhance usability and accessibility."
   },
   {
-    title: "Perceivable: Making Content Available to the Senses",
-    text: "The Perceivable principle ensures that users can see, hear, or otherwise sense all essential content. This includes providing text alternatives for images, captions for videos, and ensuring color is not the only way information is conveyed. The goal is to make sure no user is excluded based on sensory disability."
+    title: "Using Personas",
+    text: "User personas are fictional profiles based on research that represent different types of users. They help teams visualize and empathize with their audience. Inclusive design recommends integrating disabilities—both permanent and temporary—into these personas. This helps teams better anticipate accessibility needs and make more inclusive design decisions. However, it is important to avoid stereotypes and to base personas on real data. Personas are a complement to, not a replacement for, user testing."
   },
   {
-    title: "Operable: Ensuring Usable Interfaces",
-    text: "Operability requires that all users can navigate and interact with a digital product. Interfaces must support keyboard navigation, touchscreens, and avoid 'keyboard traps' where users get stuck. Features like giving users enough time to complete tasks and ensuring all controls are accessible help meet this standard."
+    title: "Caution with Disability Simulators",
+    text: "Disability simulators are tools that attempt to mimic the experience of having a disability. While they can help some understand challenges, they can also be misleading or reduce complex experiences to simplified interactions. Many accessibility advocates prefer using firsthand content—such as videos, interviews, and articles—created by people with disabilities to gain real insight into their needs and experiences. It's important to approach simulation with care and not let it replace authentic learning."
   },
   {
-    title: "Understandable: Making Information Clear and Predictable",
-    text: "An understandable digital product presents information and navigation that users can easily grasp. This involves writing in simple language, maintaining predictable layouts, and ensuring that error messages are straightforward and actionable. The goal is to reduce confusion and make interaction effortless for all users."
+    title: "Accessibility Heuristics",
+    text: "Accessibility heuristics are a set of principles designed to guide inclusive interaction design. Originating from usability heuristics, these updated guidelines focus on digital accessibility. They include areas such as allowing multiple input methods, supporting clear navigation, ensuring content structure is meaningful, preventing errors, providing legible and readable text, maintaining consistency, supporting time-based tasks, avoiding harmful animations, and offering alternatives for visual and audio content. Implementing these can eliminate a majority of accessibility issues before development begins."
   },
   {
-    title: "Robust: Supporting a Range of Technologies",
-    text: "Robustness ensures that digital products work with various assistive technologies and remain accessible as technology evolves. Testing with different screen readers, ensuring keyboard-only functionality, and maintaining compatibility across devices and orientations are crucial parts of building a robust experience."
-  },
-  {
-    title: "Conclusion: Focusing on Human Needs",
-    text: "Ultimately, the POUR principles are about more than strict rules—they are a way to meet the diverse needs of users. By focusing on perceivability, operability, understandability, and robustness, developers and designers can create truly inclusive digital experiences."
+    title: "Accessibility Annotations",
+    text: "Accessibility annotations are notes added to design files to guide developers in implementing accessible features. These annotations explain how different components should behave, how to structure content semantically, and how to meet accessibility standards. They can include information on contrast ratios, button states, alt text, keyboard navigation, headings, form labels, and more. Including annotations during the design handoff ensures that the final product retains its intended accessibility and usability features across all user scenarios."
   }
+ 
+  
 ];
 
 
@@ -55,7 +54,7 @@ function expland(index){
 
 
 <section class="flex flex-col gap-20">
-    <h1 class="font-extrabold text-7xl font-sans mt-10 text-center text-indigo-700">How is digital <span class="text-indigo-500">accessibility</span> measured?</h1>
+    <h1 class="font-extrabold text-7xl font-sans mt-10 text-center text-indigo-700">Design and <span class="text-indigo-500">user</span> experience</h1>
     <div class="flex flex-col gap-4">
         {#each sections as section, index}
         <MeasuredItem {section} isExpanded={index === sectionExpanded} onclick={()=>{
@@ -64,7 +63,7 @@ function expland(index){
         {/each}
     </div>
     <div class="flex justify-center flex-row gap-10 mb-10 ">
-        <button class="p-5  bg-indigo-700 text-white font-bold font-mono border hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"><a href="https://web.dev/learn/accessibility/measure?continue=https%3A%2F%2Fweb.dev%2Flearn%2Faccessibility%23article-https%3A%2F%2Fweb.dev%2Flearn%2Faccessibility%2Fmeasure">
+        <button class="p-5  bg-indigo-700 text-white font-bold font-mono border hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"><a href="https://web.dev/learn/accessibility/design-ux?continue=https%3A%2F%2Fweb.dev%2Flearn%2Faccessibility%23article-https%3A%2F%2Fweb.dev%2Flearn%2Faccessibility%2Fdesign-ux">
         Read full article
         </a></button>
         <button class="p-5 bg-white text-black font-bold font-mono border hover:bg-black hover:text-white transition-all duration-300 cursor-pointer"><a href="/">
