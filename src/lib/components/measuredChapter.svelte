@@ -66,8 +66,8 @@ function expland(index){
         <button class="p-5  bg-indigo-700 text-white font-bold font-mono border hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"><a href="https://web.dev/learn/accessibility/design-ux?continue=https%3A%2F%2Fweb.dev%2Flearn%2Faccessibility%23article-https%3A%2F%2Fweb.dev%2Flearn%2Faccessibility%2Fdesign-ux">
         Read full article
         </a></button>
-        <button class="p-5 bg-white text-black font-bold font-mono border hover:bg-black hover:text-white transition-all duration-300 cursor-pointer"><a href="/">
-            Go to home page
+        <button class="p-5 bg-white text-black font-bold font-mono border hover:bg-black hover:text-white transition-all duration-300 cursor-pointer"><a href="/article2">
+            Go back
         </a></button>
     </div>
 </section>

@@ -23,9 +23,9 @@
 				Remember: true accessibility starts with listening to the needs of people with disabilities.
 			</p>
 			<button
-				class="mt-4 w-100 cursor-pointer rounded border px-4 py-2 font-mono text-white transition-all duration-150 hover:bg-white hover:text-black"
+				class="mt-4 w-120 cursor-pointer rounded border px-4 py-2 font-mono text-white transition-all duration-150 hover:bg-white hover:text-black"
 			>
-				<a href="/article2">Design and user experience </a>
+				<a href="/article2">Learn more about Digital Accessibility</a>
 			</button>
 		</div>
 	</div>
