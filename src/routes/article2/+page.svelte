@@ -1,4 +1,6 @@
 <script>
+
+  
     import digitalAccess from '/src/assets/digitalAccss.png';
     import audio from '/src/assets/audio.webp';
     import forms from '/src/assets/forms.webp';
@@ -33,6 +35,8 @@
     text: "Accessible multimedia ensures that video and audio content can be understood by all. Understand the importance of captions, transcripts, audio descriptions, and accessible players for users who are deaf, hard of hearing, or blind."
   }
 ];
+
+  
 </script>
 
 
