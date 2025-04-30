@@ -5,6 +5,8 @@
 	import Chapter2 from '$lib/components/Chapter2.svelte';
 	import Chapter3 from '$lib/components/Chapter3.svelte';
 	import Chapter4 from '$lib/components/Chapter4.svelte';
+	import Chapter5 from '$lib/components/Chapter5.svelte';
+	import Chapter6 from '$lib/components/Chapter6.svelte';
 </script>
 
 
@@ -16,9 +18,9 @@
 	 <li><a href="/" class="hover:text-blue-600 transition">Home</a></li>
 	 <li><a href="#chapter2" class="hover:text-blue-600 transition">Usability</a></li>
 	 <li><a href="#chapter3" class="hover:text-blue-600 transition">Metrics</a></li>
-	 <li><a href="#chapter4" class="hover:text-blue-600 transition">ARIAHTML</a></li>
-	 <li><a href="/chapter5" class="hover:text-blue-600 transition">Chapter5</a></li>
-	 <li><a href="/chapter6" class="hover:text-blue-600 transition">Chapter6</a></li>
+	 <li><a href="#chapter4" class="hover:text-blue-600 transition">AriaHtml</a></li>
+	 <li><a href="#chapter5" class="hover:text-blue-600 transition">Layout</a></li>
+	 <li><a href="#chapter6" class="hover:text-blue-600 transition">Document</a></li>
    </ul>
 
 </div>
@@ -31,7 +33,8 @@
 <Chapter2/>
 <Chapter3/>
 <Chapter4/>
-
+<Chapter5/>
+<Chapter6/>
 
 
 
