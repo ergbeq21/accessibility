@@ -42,7 +42,7 @@
 
 
 
-<section class="min-h-screen flex flex-col gap-7 m-15 mt-10 items-center justify-center">
+<section class="min-h-screen flex flex-col gap-7 m-15 mt-15 items-center justify-center">
 
     <div class="w-full flex flex-col gap-5 ml-30">
       <h1 class="text-6xl font-extrabold text-indigo-500">
