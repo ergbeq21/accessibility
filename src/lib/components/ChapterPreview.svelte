@@ -40,7 +40,6 @@
 				<li class=" rounde border-gray-300 text-center text-black">
 					<button
 						class=" cursor-pointer border-b-1 p-5 font-mono text-2xl font-bold"
-						aria-controls={`chapter-${chapter.number}`}
 						class:bg-black={selectedChapterNumber === chapter.number}
 						class:text-white={selectedChapterNumber === chapter.number}
 						class:rounded={selectedChapterNumber === chapter.number}
