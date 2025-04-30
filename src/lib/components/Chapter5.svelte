@@ -10,10 +10,10 @@
         <img src={structure} alt="Website Content Structure Diagram" class="rounded-xl shadow-lg object-cover w-full max-h-[500px]" />
 
         <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
-            <h1 class="text-2xl font-semibold text-gray-800 mb-2">
+            <h1 class="text-2xl font-semibold mb-2 text-indigo-600">
                 Structuring Web Content for Accessibility and Clarity
             </h1>
-            <p class="text-sm text-gray-500 mb-4">CONTENT STRUCTURE • 20 MIN READ</p>
+            <p class="text-sm text-gray-400 mb-4">CONTENT STRUCTURE • 2 MIN READ</p>
             <p class="text-base text-gray-700 mb-3">
                 A well-organized content structure is essential for building accessible and user-friendly web pages. This layout demonstrates a clear division between main content and supplemental navigation, improving both usability and readability.
             </p>

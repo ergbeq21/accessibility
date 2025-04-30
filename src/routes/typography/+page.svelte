@@ -44,7 +44,7 @@
         Designing Inclusive <span class="text-indigo-500">Typography</span> for Accessibility
       </h1>
       <div class="flex flex-row gap-10 justify-center items-center">
-        <button class="p-2 bg-indigo-500 hover:border rounded  hover:bg-white hover:text-black text-white transition-all duration-200 w-50 cursor-pointer font-mono"><a href="/https://web.dev/learn/accessibility/typography?continue=https%3A%2F%2Fweb.dev%2Flearn%2Faccessibility%23article-https%3A%2F%2Fweb.dev%2Flearn%2Faccessibility%2Ftypography">Read full article</a></button>
+        <button class="p-2 bg-indigo-500 hover:border rounded  hover:bg-white hover:text-black text-white transition-all duration-200 w-50 cursor-pointer font-mono"><a href="https://web.dev/learn/accessibility/typography?continue=https%3A%2F%2Fweb.dev%2Flearn%2Faccessibility%23article-https%3A%2F%2Fweb.dev%2Flearn%2Faccessibility%2Ftypography">Read full article</a></button>
         <button class="p-2 bg-white border rounded  hover:bg-indigo-500 hover:text-white transition-all duration-200 w-50 cursor-pointer font-mono"><a href="/article2">Go back</a></button>
       </div>
 
